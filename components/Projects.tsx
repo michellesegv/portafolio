@@ -7,7 +7,7 @@ const projects = [
     description: "Sitio web de portafolio personal",
     image: "/projects/portfolio.jpg",
     technologies: ["React", "Next.js", "Tailwind CSS", "TypeScript"],
-    demoUrl: "",
+    demoUrl: "https://www.michellesegv.dev",
     codeUrl: "https://github.com/michellesegv/portafolio",
     featured: true,
   },

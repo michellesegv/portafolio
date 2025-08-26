@@ -1,36 +1,114 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌟 Portfolio de Michelle Seguil
 
-## Getting Started
+¡Bienvenidx a mi portfolio! Este es mi sitio web donde muestro mis proyectos, habilidades y experiencia como desarrolladora front-end.
 
-First, run the development server:
+## 🚀 Ver en vivo
+
+Visita mi portfolio en: **[https://www.michellesegv.dev/](https://www.michellesegv.dev/)**
+
+## 📋 Sobre el proyecto
+
+Este portfolio está construido con tecnologías modernas para ofrecer una experiencia de usuario fluida y responsive. Incluye secciones sobre mí, mis proyectos, habilidades técnicas y un formulario de contacto.
+
+### ✨ Características
+
+- 🎨 Diseño moderno y responsive
+- ⚡ Optimizado para performance
+- 🌐 SEO optimizado
+- 📱 Mobile-first approach
+- 🎯 Interfaz intuitiva y accesible
+- 💼 Showcase de proyectos profesionales
+- 📊 Visualización de habilidades técnicas
+
+## 🛠️ Tecnologías utilizadas
+
+### Frontend
+
+- **React 19.1.0** - Biblioteca principal para la UI
+- **Next.js 15.5.0** - Framework de React para aplicaciones web
+- **TypeScript** - Tipado estático para JavaScript
+- **Tailwind CSS 4** - Framework de CSS para estilos
+- **HTML5 & CSS3** - Estructuras web semánticas y modernas
+
+### Herramientas de desarrollo
+
+- **ESLint** - Linter para mantener calidad de código
+- **PostCSS** - Herramienta para transformar CSS
+- **Turbopack** - Bundler para desarrollo y build optimizado
+- **VS Code** - Editor de código principal
+
+### Deployment y hosting
+
+- **Vercel** - Plataforma de deployment
+
+## 🚀 Instalación y desarrollo local
+
+Clona el repositorio:
+
+```bash
+git clone https://github.com/michellesegv/portafolio.git
+cd portafolio
+```
+
+Instala las dependencias:
+
+```bash
+npm install
+# o
+yarn install
+```
+
+Ejecuta el servidor de desarrollo:
 
 ```bash
 npm run dev
-# or
+# o
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estructura del proyecto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+portfolio/
+├── app/                    # App Router de Next.js
+│   ├── layout.tsx         # Layout principal
+│   ├── page.tsx           # Página de inicio
+│   └── globals.css        # Estilos globales
+├── components/            # Componentes reutilizables
+│   ├── About.tsx          # Sección sobre mí
+│   ├── Contact.tsx        # Formulario de contacto
+│   ├── Footer.tsx         # Pie de página
+│   ├── Navbar.tsx         # Barra de navegación
+│   ├── Projects.tsx       # Showcase de proyectos
+│   ├── Skills.tsx         # Habilidades técnicas
+│   └── ...               # Otros componentes
+├── public/                # Archivos estáticos
+│   ├── icons/             # Iconos de tecnologías
+│   ├── projects/          # Imágenes de proyectos
+│   └── ...               # Otras imágenes
+└── ...                   # Archivos de configuración
+```
 
-## Learn More
+## 🏗️ Scripts disponibles
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Ejecuta el servidor de desarrollo con Turbopack
+- `npm run build` - Construye la aplicación para producción
+- `npm run start` - Inicia el servidor de producción
+- `npm run lint` - Ejecuta ESLint para revisar el código
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📞 Contacto
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+¿Tienes alguna pregunta o propuesta de trabajo? ¡Me encantaría escucharte!
 
-## Deploy on Vercel
+- **Portfolio**: [https://www.michellesegv.dev/](https://www.michellesegv.dev/)
+- **GitHub**: [michellesegv](https://github.com/michellesegv)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+⭐ Si te gusta este proyecto, ¡no olvides darle una estrella!
+
+## 📄 Licencia
+
+Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
