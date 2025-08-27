@@ -77,7 +77,7 @@ export default function SoftSkills() {
                     {skill.title}
                   </h3>
 
-                  <p className="text-gray-600 text-sm mb-4 leading-relaxed">
+                  <p className="text-gray-600 text-sm leading-relaxed">
                     {skill.description}
                   </p>
                 </div>
