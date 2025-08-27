@@ -4,55 +4,47 @@ const softSkills = [
     description:
       "Capacidad de anticiparme y tomar iniciativa ante las posibles situaciones",
     icon: "🚀",
-    percentage: 95,
   },
   {
     title: "Comunicación Efectiva",
     description:
       "Capacidad para transmitir ideas complejas de manera clara y comprensible con equipo técnico y no técnico",
     icon: "💬",
-    percentage: 95,
   },
   {
     title: "Trabajo en Equipo",
     description:
       "Colaboración eficiente con equipos multidisciplinarios y remotos",
     icon: "🤝",
-    percentage: 95,
   },
   {
     title: "Resolución de Problemas",
     description:
       "Enfoque analítico para identificar y resolver desafíos técnicos",
     icon: "🧩",
-    percentage: 95,
   },
 
   {
     title: "Gestión del Tiempo",
     description: "Organización eficiente de tareas y cumplimiento de deadlines",
     icon: "⏰",
-    percentage: 95,
   },
   {
     title: "Aprendizaje Continuo",
     description: "Pasión por mantenerme actualizada con las últimas tendencias",
     icon: "📚",
-    percentage: 98,
   },
   {
     title: "Creatividad",
     description:
       "Pensamiento innovador para crear soluciones únicas y atractivas",
     icon: "🎨",
-    percentage: 98,
   },
   {
     title: "Liderazgo",
     description:
       "Capacidad para guiar proyectos y mentorizar a otros desarrolladores",
     icon: "👑",
-    percentage: 95,
   },
 ];
 
@@ -88,43 +80,6 @@ export default function SoftSkills() {
                   <p className="text-gray-600 text-sm mb-4 leading-relaxed">
                     {skill.description}
                   </p>
-
-                  <div className="relative w-20 h-20 mx-auto mb-4">
-                    <svg
-                      className="w-20 h-20 transform -rotate-90"
-                      viewBox="0 0 80 80"
-                    >
-                      <circle
-                        cx="40"
-                        cy="40"
-                        r="32"
-                        stroke="#e5e7eb"
-                        strokeWidth="6"
-                        fill="none"
-                      />
-
-                      <circle
-                        cx="40"
-                        cy="40"
-                        r="32"
-                        stroke="#ec003f"
-                        strokeWidth="6"
-                        fill="none"
-                        strokeDasharray={`${2 * Math.PI * 32}`}
-                        strokeDashoffset={`${
-                          2 * Math.PI * 32 * (1 - skill.percentage / 100)
-                        }`}
-                        className="transition-all duration-1000 ease-out"
-                        strokeLinecap="round"
-                      />
-                    </svg>
-
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <span className="text-lg font-semibold text-rose-600">
-                        {skill.percentage}%
-                      </span>
-                    </div>
-                  </div>
                 </div>
               </div>
             ))}
@@ -148,9 +103,7 @@ export default function SoftSkills() {
         <div className="mt-16">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="text-center">
-              <div className="text-3xl font-bold text-rose-600 mb-2">
-                Alta
-              </div>
+              <div className="text-3xl font-bold text-rose-600 mb-2">Alta</div>
               <div className="text-gray-600">Satisfacción del cliente</div>
             </div>
             <div className="text-center">
